@@ -11,9 +11,7 @@ const HomePage = () => {
 
   const [infowindow, setInfowindow] = useState(false);
   const [markerData, setMarkerData] = useState<any>(null);
-
-  console.log(process.env.NEXT_PUBLIC_GOOGLE_API_KEY as string);
-
+  
   const { isLoaded } = useJsApiLoader({
     id: "google-map-script",
     googleMapsApiKey: process.env.NEXT_PUBLIC_GOOGLE_API_KEY as string,
