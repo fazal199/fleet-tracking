@@ -1,0 +1,1147 @@
+
+
+=== New Request at 2025-09-16 17:48:36 (IST) ===
+{
+  "assetId": "8022300001",
+  "longitude": 0,
+  "latitude": 0,
+  "speed": 0,
+  "direction": 0,
+  "mileage": 16,
+  "gpsTime": "2022-09-01T08:59:56Z",
+  "ksInfo": "",
+  "recvTime": "2022-09-01T08:59:56.964Z",
+  "locType": 0,
+  "cellSignal": 19,
+  "gnssSignal": 0,
+  "cells": "460,0,9383,220792647",
+  "battery": 100,
+  "voltage": "0.0",
+  "statusJson": "{\"lockBar\":-1,\"lockRope\":0,\"lockStatus\":0}",
+  "expandInfo": "{\"angle\":\"null\",\"backBattery\":\"null\",\"fuels\":\"-1,-1,-1\",\"humidity\":\"0\",\"lux\":\"0.0\",\"networkType\":\"0\",\"pressure\":\"0.0\",\"reportType\":\"0\",\"temperature\":\"-1000.0\"}"
+}
+
+
+=== New Request at 2025-09-16 17:49:16 (IST) ===
+{
+  "assetId": "8022300001",
+  "longitude": 0,
+  "latitude": 0,
+  "speed": 0,
+  "direction": 0,
+  "mileage": 16,
+  "gpsTime": "2022-09-01T08:59:56Z",
+  "ksInfo": "",
+  "recvTime": "2022-09-01T08:59:56.964Z",
+  "locType": 0,
+  "cellSignal": 19,
+  "gnssSignal": 0,
+  "cells": "460,0,9383,220792647",
+  "battery": 100,
+  "voltage": "0.0",
+  "statusJson": "{\"lockBar\":-1,\"lockRope\":0,\"lockStatus\":0}",
+  "expandInfo": "{\"angle\":\"null\",\"backBattery\":\"null\",\"fuels\":\"-1,-1,-1\",\"humidity\":\"0\",\"lux\":\"0.0\",\"networkType\":\"0\",\"pressure\":\"0.0\",\"reportType\":\"0\",\"temperature\":\"-1000.0\"}"
+}
+
+
+=== New Request at 2025-09-16 17:52:24 (IST) ===
+{
+  "assetId": "8022300001",
+  "longitude": 0,
+  "latitude": 0,
+  "speed": 0,
+  "direction": 0,
+  "mileage": 16,
+  "gpsTime": "2022-09-01T08:59:56Z",
+  "ksInfo": "",
+  "recvTime": "2022-09-01T08:59:56.964Z",
+  "locType": 0,
+  "cellSignal": 19,
+  "gnssSignal": 0,
+  "cells": "460,0,9383,220792647",
+  "battery": 100,
+  "voltage": "0.0",
+  "statusJson": "{\"lockBar\":-1,\"lockRope\":0,\"lockStatus\":0}",
+  "expandInfo": "{\"angle\":\"null\",\"backBattery\":\"null\",\"fuels\":\"-1,-1,-1\",\"humidity\":\"0\",\"lux\":\"0.0\",\"networkType\":\"0\",\"pressure\":\"0.0\",\"reportType\":\"0\",\"temperature\":\"-1000.0\"}"
+}
+
+
+=== New Request at 2025-09-16 17:57:44 (IST) ===
+{
+  "assetId": "8022300001",
+  "longitude": 0,
+  "latitude": 0,
+  "speed": 0,
+  "direction": 0,
+  "mileage": 16,
+  "gpsTime": "2022-09-01T08:59:56Z",
+  "ksInfo": "",
+  "recvTime": "2022-09-01T08:59:56.964Z",
+  "locType": 0,
+  "cellSignal": 19,
+  "gnssSignal": 0,
+  "cells": "460,0,9383,220792647",
+  "battery": 100,
+  "voltage": "0.0",
+  "statusJson": "{\"lockBar\":-1,\"lockRope\":0,\"lockStatus\":0}",
+  "expandInfo": "{\"angle\":\"null\",\"backBattery\":\"null\",\"fuels\":\"-1,-1,-1\",\"humidity\":\"0\",\"lux\":\"0.0\",\"networkType\":\"0\",\"pressure\":\"0.0\",\"reportType\":\"0\",\"temperature\":\"-1000.0\"}"
+}
+
+
+=== New Request at 2025-09-16 17:58:04 (IST) ===
+{
+  "assetId": "8022300001",
+  "longitude": 0,
+  "latitude": 0,
+  "speed": 0,
+  "direction": 0,
+  "mileage": 16,
+  "gpsTime": "2022-09-01T08:59:56Z",
+  "ksInfo": "",
+  "recvTime": "2022-09-01T08:59:56.964Z",
+  "locType": 0,
+  "cellSignal": 19,
+  "gnssSignal": 0,
+  "cells": "460,0,9383,220792647",
+  "battery": 100,
+  "voltage": "0.0",
+  "statusJson": "{\"lockBar\":-1,\"lockRope\":0,\"lockStatus\":0}",
+  "expandInfo": "{\"angle\":\"null\",\"backBattery\":\"null\",\"fuels\":\"-1,-1,-1\",\"humidity\":\"0\",\"lux\":\"0.0\",\"networkType\":\"0\",\"pressure\":\"0.0\",\"reportType\":\"0\",\"temperature\":\"-1000.0\"}"
+}
+
+
+=== New Request at 2025-09-16 18:07:10 (IST) ===
+{
+  "assetId": "8022300001",
+  "longitude": 0,
+  "latitude": 0,
+  "speed": 0,
+  "direction": 0,
+  "mileage": 16,
+  "gpsTime": "2022-09-01T08:59:56Z",
+  "ksInfo": "",
+  "recvTime": "2022-09-01T08:59:56.964Z",
+  "locType": 0,
+  "cellSignal": 19,
+  "gnssSignal": 0,
+  "cells": "460,0,9383,220792647",
+  "battery": 100,
+  "voltage": "0.0",
+  "statusJson": "{\"lockBar\":-1,\"lockRope\":0,\"lockStatus\":0}",
+  "expandInfo": "{\"angle\":\"null\",\"backBattery\":\"null\",\"fuels\":\"-1,-1,-1\",\"humidity\":\"0\",\"lux\":\"0.0\",\"networkType\":\"0\",\"pressure\":\"0.0\",\"reportType\":\"0\",\"temperature\":\"-1000.0\"}"
+}
+
+
+=== New Request at 2025-09-16 18:09:17 (IST) ===
+{
+  "assetId": "8022300001",
+  "longitude": 0,
+  "latitude": 0,
+  "speed": 0,
+  "direction": 0,
+  "mileage": 16,
+  "gpsTime": "2022-09-01T08:59:56Z",
+  "ksInfo": "",
+  "recvTime": "2022-09-01T08:59:56.964Z",
+  "locType": 0,
+  "cellSignal": 19,
+  "gnssSignal": 0,
+  "cells": "460,0,9383,220792647",
+  "battery": 100,
+  "voltage": "0.0",
+  "statusJson": "{\"lockBar\":-1,\"lockRope\":0,\"lockStatus\":0}",
+  "expandInfo": "{\"angle\":\"null\",\"backBattery\":\"null\",\"fuels\":\"-1,-1,-1\",\"humidity\":\"0\",\"lux\":\"0.0\",\"networkType\":\"0\",\"pressure\":\"0.0\",\"reportType\":\"0\",\"temperature\":\"-1000.0\"}"
+}
+
+
+=== New Request at 2025-09-16 18:17:01 (IST) ===
+{
+  "assetId": "8022300001",
+  "longitude": 0,
+  "latitude": 0,
+  "speed": 0,
+  "direction": 0,
+  "mileage": 16,
+  "gpsTime": "2022-09-01T08:59:56Z",
+  "ksInfo": "",
+  "recvTime": "2022-09-01T08:59:56.964Z",
+  "locType": 0,
+  "cellSignal": 19,
+  "gnssSignal": 0,
+  "cells": "460,0,9383,220792647",
+  "battery": 100,
+  "voltage": "0.0",
+  "statusJson": "{\"lockBar\":-1,\"lockRope\":0,\"lockStatus\":0}",
+  "expandInfo": "{\"angle\":\"null\",\"backBattery\":\"null\",\"fuels\":\"-1,-1,-1\",\"humidity\":\"0\",\"lux\":\"0.0\",\"networkType\":\"0\",\"pressure\":\"0.0\",\"reportType\":\"0\",\"temperature\":\"-1000.0\"}"
+}
+
+
+=== New Request at 2025-09-16 18:18:10 (IST) ===
+{
+  "assetId": "775240719293",
+  "battery": 59,
+  "cellSignal": 31,
+  "cells": "404,98,5273,23128",
+  "direction": 0,
+  "expandInfo": "{\"angle\":\"null\",\"backBattery\":\"null\",\"fuels\":\"-1,-1,-1\",\"humidity\":\"0\",\"lux\":\"null\",\"networkType\":\"0\",\"pressure\":\"null\",\"reportType\":\"null\",\"temperature\":\"30.4\"}",
+  "gnssSignal": 0,
+  "gpsTime": "2025-09-03T06:57:08Z",
+  "latitude": 20.395681,
+  "locType": 2,
+  "longitude": 72.8932308,
+  "mileage": 0,
+  "recvTime": "2025-09-03T06:57:11.40378Z",
+  "speed": 0,
+  "statusJson": "{\"lockRope\":1,\"lockStatus\":1}",
+  "voltage": "1.6"
+}
+
+
+=== New Request at 2025-09-16 18:32:13 (IST) ===
+{
+  "assetId": "775240719293",
+  "battery": 59,
+  "cellSignal": 31,
+  "cells": "404,98,5273,23128",
+  "direction": 0,
+  "expandInfo": "{\"angle\":\"null\",\"backBattery\":\"null\",\"fuels\":\"-1,-1,-1\",\"humidity\":\"0\",\"lux\":\"null\",\"networkType\":\"0\",\"pressure\":\"null\",\"reportType\":\"null\",\"temperature\":\"30.4\"}",
+  "gnssSignal": 0,
+  "gpsTime": "2025-09-03T06:57:08Z",
+  "latitude": 20.395681,
+  "locType": 2,
+  "longitude": 72.8932308,
+  "mileage": 0,
+  "recvTime": "2025-09-03T06:57:11.40378Z",
+  "speed": 0,
+  "statusJson": "{\"lockRope\":1,\"lockStatus\":1}",
+  "voltage": "1.6"
+}
+
+
+=== New Request at 2025-09-17 15:38:25 (IST) ===
+{
+  "assetId": "8022300001",
+  "longitude": 0,
+  "latitude": 0,
+  "speed": 0,
+  "direction": 0,
+  "mileage": 16,
+  "gpsTime": "2022-09-01T08:59:56Z",
+  "ksInfo": "",
+  "recvTime": "2022-09-01T08:59:56.964Z",
+  "locType": 0,
+  "cellSignal": 19,
+  "gnssSignal": 0,
+  "cells": "460,0,9383,220792647",
+  "battery": 100,
+  "voltage": "0.0",
+  "statusJson": "{\"lockBar\":-1,\"lockRope\":0,\"lockStatus\":0}",
+  "expandInfo": "{\"angle\":\"null\",\"backBattery\":\"null\",\"fuels\":\"-1,-1,-1\",\"humidity\":\"0\",\"lux\":\"0.0\",\"networkType\":\"0\",\"pressure\":\"0.0\",\"reportType\":\"0\",\"temperature\":\"-1000.0\"}"
+}
+
+
+=== New Request at 2025-09-17 15:40:26 (IST) ===
+{
+  "assetId": "8022300001",
+  "longitude": 0,
+  "latitude": 0,
+  "speed": 0,
+  "direction": 0,
+  "mileage": 16,
+  "gpsTime": "2022-09-01T08:59:56Z",
+  "ksInfo": "",
+  "recvTime": "2022-09-01T08:59:56.964Z",
+  "locType": 0,
+  "cellSignal": 19,
+  "gnssSignal": 0,
+  "cells": "460,0,9383,220792647",
+  "battery": 100,
+  "voltage": "0.0",
+  "statusJson": "{\"lockBar\":-1,\"lockRope\":0,\"lockStatus\":0}",
+  "expandInfo": "{\"angle\":\"null\",\"backBattery\":\"null\",\"fuels\":\"-1,-1,-1\",\"humidity\":\"0\",\"lux\":\"0.0\",\"networkType\":\"0\",\"pressure\":\"0.0\",\"reportType\":\"0\",\"temperature\":\"-1000.0\"}"
+}
+
+
+=== New Request at 2025-09-17 15:41:28 (IST) ===
+{
+  "assetId": "8022300001",
+  "longitude": 0,
+  "latitude": 0,
+  "speed": 0,
+  "direction": 0,
+  "mileage": 16,
+  "gpsTime": "2022-09-01T08:59:56Z",
+  "ksInfo": "",
+  "recvTime": "2022-09-01T08:59:56.964Z",
+  "locType": 0,
+  "cellSignal": 19,
+  "gnssSignal": 0,
+  "cells": "460,0,9383,220792647",
+  "battery": 100,
+  "voltage": "0.0",
+  "statusJson": "{\"lockBar\":-1,\"lockRope\":0,\"lockStatus\":0}",
+  "expandInfo": "{\"angle\":\"null\",\"backBattery\":\"null\",\"fuels\":\"-1,-1,-1\",\"humidity\":\"0\",\"lux\":\"0.0\",\"networkType\":\"0\",\"pressure\":\"0.0\",\"reportType\":\"0\",\"temperature\":\"-1000.0\"}"
+}
+
+
+=== New Request at 2025-09-17 15:43:54 (IST) ===
+{
+  "assetId": "775240719293",
+  "longitude": 0,
+  "latitude": 0,
+  "speed": 0,
+  "direction": 0,
+  "mileage": 16,
+  "gpsTime": "2022-09-01T08:59:56Z",
+  "ksInfo": "",
+  "recvTime": "2022-09-01T08:59:56.964Z",
+  "locType": 0,
+  "cellSignal": 19,
+  "gnssSignal": 0,
+  "cells": "460,0,9383,220792647",
+  "battery": 100,
+  "voltage": "0.0",
+  "statusJson": "{\"lockBar\":-1,\"lockRope\":0,\"lockStatus\":0}",
+  "expandInfo": "{\"angle\":\"null\",\"backBattery\":\"null\",\"fuels\":\"-1,-1,-1\",\"humidity\":\"0\",\"lux\":\"0.0\",\"networkType\":\"0\",\"pressure\":\"0.0\",\"reportType\":\"0\",\"temperature\":\"-1000.0\"}"
+}
+
+
+=== New Request at 2025-09-17 15:47:21 (IST) ===
+{
+  "assetId": "775240719293",
+  "longitude": 0,
+  "latitude": 0,
+  "speed": 0,
+  "direction": 0,
+  "mileage": 16,
+  "gpsTime": "2022-09-01T08:59:56Z",
+  "ksInfo": "",
+  "recvTime": "2022-09-01T08:59:56.964Z",
+  "locType": 0,
+  "cellSignal": 19,
+  "gnssSignal": 0,
+  "cells": "460,0,9383,220792647",
+  "battery": 100,
+  "voltage": "0.0",
+  "statusJson": "{\"lockBar\":-1,\"lockRope\":0,\"lockStatus\":0}",
+  "expandInfo": "{\"angle\":\"null\",\"backBattery\":\"null\",\"fuels\":\"-1,-1,-1\",\"humidity\":\"0\",\"lux\":\"0.0\",\"networkType\":\"0\",\"pressure\":\"0.0\",\"reportType\":\"0\",\"temperature\":\"-1000.0\"}"
+}
+
+
+=== New Request at 2025-09-17 15:48:06 (IST) ===
+{
+  "assetId": "775240719293",
+  "battery": 59,
+  "cellSignal": 31,
+  "cells": "404,98,5273,23128",
+  "direction": 0,
+  "expandInfo": "{\"angle\":\"null\",\"backBattery\":\"null\",\"fuels\":\"-1,-1,-1\",\"humidity\":\"0\",\"lux\":\"null\",\"networkType\":\"0\",\"pressure\":\"null\",\"reportType\":\"null\",\"temperature\":\"30.4\"}",
+  "gnssSignal": 0,
+  "gpsTime": "2025-09-03T06:57:08Z",
+  "latitude": 20.395681,
+  "locType": 2,
+  "longitude": 72.8932308,
+  "mileage": 0,
+  "recvTime": "2025-09-03T06:57:11.40378Z",
+  "speed": 0,
+  "statusJson": "{\"lockRope\":1,\"lockStatus\":1}",
+  "voltage": "1.6"
+}
+
+
+=== New Request at 2025-09-17 15:50:29 (IST) ===
+{
+  "assetId": "775240719293",
+  "battery": 59,
+  "cellSignal": 31,
+  "cells": "404,98,5273,23128",
+  "direction": 0,
+  "expandInfo": "{\"angle\":\"null\",\"backBattery\":\"null\",\"fuels\":\"-1,-1,-1\",\"humidity\":\"0\",\"lux\":\"null\",\"networkType\":\"0\",\"pressure\":\"null\",\"reportType\":\"null\",\"temperature\":\"30.4\"}",
+  "gnssSignal": 0,
+  "gpsTime": "2025-09-03T06:57:08Z",
+  "latitude": 20.395681,
+  "locType": 2,
+  "longitude": 72.8932308,
+  "mileage": 0,
+  "recvTime": "2025-09-03T06:57:11.40378Z",
+  "speed": 0,
+  "statusJson": "{\"lockRope\":1,\"lockStatus\":1}",
+  "voltage": "1.6"
+}
+
+
+=== New Request at 2025-09-17 15:50:36 (IST) ===
+{
+  "assetId": "775240719293",
+  "battery": 59,
+  "cellSignal": 31,
+  "cells": "404,98,5273,23128",
+  "direction": 0,
+  "expandInfo": "{\"angle\":\"null\",\"backBattery\":\"null\",\"fuels\":\"-1,-1,-1\",\"humidity\":\"0\",\"lux\":\"null\",\"networkType\":\"0\",\"pressure\":\"null\",\"reportType\":\"null\",\"temperature\":\"30.4\"}",
+  "gnssSignal": 0,
+  "gpsTime": "2025-09-03T06:57:08Z",
+  "latitude": 20.395681,
+  "locType": 2,
+  "longitude": 72.8932308,
+  "mileage": 0,
+  "recvTime": "2025-09-03T06:57:11.40378Z",
+  "speed": 0,
+  "statusJson": "{\"lockRope\":1,\"lockStatus\":1}",
+  "voltage": "1.6"
+}
+
+
+=== New Request at 2025-09-17 15:51:12 (IST) ===
+{
+  "assetId": "775240719293",
+  "battery": 59,
+  "cellSignal": 31,
+  "cells": "404,98,5273,23128",
+  "direction": 0,
+  "expandInfo": "{\"angle\":\"null\",\"backBattery\":\"null\",\"fuels\":\"-1,-1,-1\",\"humidity\":\"0\",\"lux\":\"null\",\"networkType\":\"0\",\"pressure\":\"null\",\"reportType\":\"null\",\"temperature\":\"30.4\"}",
+  "gnssSignal": 0,
+  "gpsTime": "2025-09-03T06:57:08Z",
+  "latitude": 20.395681,
+  "locType": 2,
+  "longitude": 72.8932308,
+  "mileage": 0,
+  "recvTime": "2025-09-03T06:57:11.40378Z",
+  "speed": 0,
+  "statusJson": "{\"lockRope\":1,\"lockStatus\":1}",
+  "voltage": "1.6"
+}
+
+
+=== New Request at 2025-09-17 15:52:53 (IST) ===
+{
+  "assetId": "775240719293",
+  "battery": 59,
+  "cellSignal": 31,
+  "cells": "404,98,5273,23128",
+  "direction": 0,
+  "expandInfo": "{\"angle\":\"null\",\"backBattery\":\"null\",\"fuels\":\"-1,-1,-1\",\"humidity\":\"0\",\"lux\":\"null\",\"networkType\":\"0\",\"pressure\":\"null\",\"reportType\":\"null\",\"temperature\":\"30.4\"}",
+  "gnssSignal": 0,
+  "gpsTime": "2025-09-03T06:57:08Z",
+  "latitude": 20.395681,
+  "locType": 2,
+  "longitude": 72.8932308,
+  "mileage": 0,
+  "recvTime": "2025-09-03T06:57:11.40378Z",
+  "speed": 0,
+  "statusJson": "{\"lockRope\":1,\"lockStatus\":1}",
+  "voltage": "1.6"
+}
+
+
+=== New Request at 2025-09-17 15:55:01 (IST) ===
+{
+  "assetId": "775240719293",
+  "battery": 59,
+  "cellSignal": 31,
+  "cells": "404,98,5273,23128",
+  "direction": 0,
+  "expandInfo": "{\"angle\":\"null\",\"backBattery\":\"null\",\"fuels\":\"-1,-1,-1\",\"humidity\":\"0\",\"lux\":\"null\",\"networkType\":\"0\",\"pressure\":\"null\",\"reportType\":\"null\",\"temperature\":\"30.4\"}",
+  "gnssSignal": 0,
+  "gpsTime": "2025-09-03T06:57:08Z",
+  "latitude": 20.395681,
+  "locType": 2,
+  "longitude": 72.8932308,
+  "mileage": 0,
+  "recvTime": "2025-09-03T06:57:11.40378Z",
+  "speed": 0,
+  "statusJson": "{\"lockRope\":1,\"lockStatus\":1}",
+  "voltage": "1.6"
+}
+
+
+=== New Request at 2025-09-17 16:05:50 (IST) ===
+{
+  "assetId": "775240719293",
+  "battery": 59,
+  "cellSignal": 31,
+  "cells": "404,98,5273,23128",
+  "direction": 0,
+  "expandInfo": "{\"angle\":\"null\",\"backBattery\":\"null\",\"fuels\":\"-1,-1,-1\",\"humidity\":\"0\",\"lux\":\"null\",\"networkType\":\"0\",\"pressure\":\"null\",\"reportType\":\"null\",\"temperature\":\"30.4\"}",
+  "gnssSignal": 0,
+  "gpsTime": "2025-09-03T06:57:08Z",
+  "latitude": 20.395681,
+  "locType": 2,
+  "longitude": 72.8932308,
+  "mileage": 0,
+  "recvTime": "2025-09-03T06:57:11.40378Z",
+  "speed": 0,
+  "statusJson": "{\"lockRope\":1,\"lockStatus\":1}",
+  "voltage": "1.6"
+}
+
+
+=== New Request at 2025-09-17 16:06:21 (IST) ===
+{
+  "assetId": "775240719293",
+  "battery": 59,
+  "cellSignal": 31,
+  "cells": "404,98,5273,23128",
+  "direction": 0,
+  "expandInfo": "{\"angle\":\"null\",\"backBattery\":\"null\",\"fuels\":\"-1,-1,-1\",\"humidity\":\"0\",\"lux\":\"null\",\"networkType\":\"0\",\"pressure\":\"null\",\"reportType\":\"null\",\"temperature\":\"30.4\"}",
+  "gnssSignal": 0,
+  "gpsTime": "2025-09-03T06:57:08Z",
+  "latitude": 20.395681,
+  "locType": 2,
+  "longitude": 72.8932308,
+  "mileage": 0,
+  "recvTime": "2025-09-03T06:57:11.40378Z",
+  "speed": 0,
+  "statusJson": "{\"lockRope\":1,\"lockStatus\":1}",
+  "voltage": "1.6"
+}
+
+
+=== New Request at 2025-09-17 16:07:12 (IST) ===
+{
+  "assetId": "775240719293",
+  "battery": 59,
+  "cellSignal": 31,
+  "cells": "404,98,5273,23128",
+  "direction": 0,
+  "expandInfo": "{\"angle\":\"null\",\"backBattery\":\"null\",\"fuels\":\"-1,-1,-1\",\"humidity\":\"0\",\"lux\":\"null\",\"networkType\":\"0\",\"pressure\":\"null\",\"reportType\":\"null\",\"temperature\":\"30.4\"}",
+  "gnssSignal": 0,
+  "gpsTime": "2025-09-03T06:57:08Z",
+  "latitude": 20.395681,
+  "locType": 2,
+  "longitude": 72.8932308,
+  "mileage": 0,
+  "recvTime": "2025-09-03T06:57:11.40378Z",
+  "speed": 0,
+  "statusJson": "{\"lockRope\":1,\"lockStatus\":1}",
+  "voltage": "1.6"
+}
+
+
+=== New Request at 2025-09-17 16:11:36 (IST) ===
+{
+  "assetId": "775240719293",
+  "battery": 59,
+  "cellSignal": 31,
+  "cells": "404,98,5273,23128",
+  "direction": 0,
+  "expandInfo": "{\"angle\":\"null\",\"backBattery\":\"null\",\"fuels\":\"-1,-1,-1\",\"humidity\":\"0\",\"lux\":\"null\",\"networkType\":\"0\",\"pressure\":\"null\",\"reportType\":\"null\",\"temperature\":\"30.4\"}",
+  "gnssSignal": 0,
+  "gpsTime": "2025-09-03T06:57:08Z",
+  "latitude": 20.395681,
+  "locType": 2,
+  "longitude": 72.8932308,
+  "mileage": 0,
+  "recvTime": "2025-09-03T06:57:11.40378Z",
+  "speed": 0,
+  "statusJson": "{\"lockRope\":1,\"lockStatus\":1}",
+  "voltage": "1.6"
+}
+
+
+=== New Request at 2025-09-17 16:12:16 (IST) ===
+{
+  "assetId": "775240719293",
+  "battery": 59,
+  "cellSignal": 31,
+  "cells": "404,98,5273,23128",
+  "direction": 0,
+  "expandInfo": "{\"angle\":\"null\",\"backBattery\":\"null\",\"fuels\":\"-1,-1,-1\",\"humidity\":\"0\",\"lux\":\"null\",\"networkType\":\"0\",\"pressure\":\"null\",\"reportType\":\"null\",\"temperature\":\"30.4\"}",
+  "gnssSignal": 0,
+  "gpsTime": "2025-09-03T06:57:08Z",
+  "latitude": 20.395681,
+  "locType": 2,
+  "longitude": 72.8932308,
+  "mileage": 0,
+  "recvTime": "2025-09-03T06:57:11.40378Z",
+  "speed": 0,
+  "statusJson": "{\"lockRope\":1,\"lockStatus\":1}",
+  "voltage": "1.6"
+}
+
+
+=== New Request at 2025-09-17 16:12:52 (IST) ===
+{
+  "assetId": "775240719293",
+  "battery": 59,
+  "cellSignal": 31,
+  "cells": "404,98,5273,23128",
+  "direction": 0,
+  "expandInfo": "{\"angle\":\"null\",\"backBattery\":\"null\",\"fuels\":\"-1,-1,-1\",\"humidity\":\"0\",\"lux\":\"null\",\"networkType\":\"0\",\"pressure\":\"null\",\"reportType\":\"null\",\"temperature\":\"30.4\"}",
+  "gnssSignal": 0,
+  "gpsTime": "2025-09-03T06:57:08Z",
+  "latitude": 20.395681,
+  "locType": 2,
+  "longitude": 72.8932308,
+  "mileage": 0,
+  "recvTime": "2025-09-03T06:57:11.40378Z",
+  "speed": 0,
+  "statusJson": "{\"lockRope\":1,\"lockStatus\":1}",
+  "voltage": "1.6"
+}
+
+
+=== New Request at 2025-09-17 16:14:27 (IST) ===
+{
+  "assetId": "775240719293",
+  "battery": 59,
+  "cellSignal": 31,
+  "cells": "404,98,5273,23128",
+  "direction": 0,
+  "expandInfo": "{\"angle\":\"null\",\"backBattery\":\"null\",\"fuels\":\"-1,-1,-1\",\"humidity\":\"0\",\"lux\":\"null\",\"networkType\":\"0\",\"pressure\":\"null\",\"reportType\":\"null\",\"temperature\":\"30.4\"}",
+  "gnssSignal": 0,
+  "gpsTime": "2025-09-03T06:57:08Z",
+  "latitude": 20.395681,
+  "locType": 2,
+  "longitude": 72.8932308,
+  "mileage": 0,
+  "recvTime": "2025-09-03T06:57:11.40378Z",
+  "speed": 0,
+  "statusJson": "{\"lockRope\":1,\"lockStatus\":1}",
+  "voltage": "1.6"
+}
+
+
+=== New Request at 2025-09-17 16:15:18 (IST) ===
+{
+  "assetId": "775240719293",
+  "battery": 59,
+  "cellSignal": 31,
+  "cells": "404,98,5273,23128",
+  "direction": 0,
+  "expandInfo": "{\"angle\":\"null\",\"backBattery\":\"null\",\"fuels\":\"-1,-1,-1\",\"humidity\":\"0\",\"lux\":\"null\",\"networkType\":\"0\",\"pressure\":\"null\",\"reportType\":\"null\",\"temperature\":\"30.4\"}",
+  "gnssSignal": 0,
+  "gpsTime": "2025-09-03T06:57:08Z",
+  "latitude": 20.395681,
+  "locType": 2,
+  "longitude": 72.8932308,
+  "mileage": 0,
+  "recvTime": "2025-09-03T06:57:11.40378Z",
+  "speed": 0,
+  "statusJson": "{\"lockRope\":1,\"lockStatus\":1}",
+  "voltage": "1.6"
+}
+
+
+=== New Request at 2025-09-17 16:15:54 (IST) ===
+{
+  "assetId": "775240719293",
+  "battery": 59,
+  "cellSignal": 31,
+  "cells": "404,98,5273,23128",
+  "direction": 0,
+  "expandInfo": "{\"angle\":\"null\",\"backBattery\":\"null\",\"fuels\":\"-1,-1,-1\",\"humidity\":\"0\",\"lux\":\"null\",\"networkType\":\"0\",\"pressure\":\"null\",\"reportType\":\"null\",\"temperature\":\"30.4\"}",
+  "gnssSignal": 0,
+  "gpsTime": "2025-09-03T06:57:08Z",
+  "latitude": 20.395681,
+  "locType": 2,
+  "longitude": 72.8932308,
+  "mileage": 0,
+  "recvTime": "2025-09-03T06:57:11.40378Z",
+  "speed": 0,
+  "statusJson": "{\"lockRope\":1,\"lockStatus\":1}",
+  "voltage": "1.6"
+}
+
+
+=== New Request at 2025-09-17 16:16:50 (IST) ===
+{
+  "assetId": "775240719293",
+  "battery": 59,
+  "cellSignal": 31,
+  "cells": "404,98,5273,23128",
+  "direction": 0,
+  "expandInfo": "{\"angle\":\"null\",\"backBattery\":\"null\",\"fuels\":\"-1,-1,-1\",\"humidity\":\"0\",\"lux\":\"null\",\"networkType\":\"0\",\"pressure\":\"null\",\"reportType\":\"null\",\"temperature\":\"30.4\"}",
+  "gnssSignal": 0,
+  "gpsTime": "2025-09-03T06:57:08Z",
+  "latitude": 20.395681,
+  "locType": 2,
+  "longitude": 72.8932308,
+  "mileage": 0,
+  "recvTime": "2025-09-03T06:57:11.40378Z",
+  "speed": 0,
+  "statusJson": "{\"lockRope\":1,\"lockStatus\":1}",
+  "voltage": "1.6"
+}
+
+
+=== New Request at 2025-09-17 16:17:29 (IST) ===
+{
+  "assetId": "775240719293",
+  "battery": 59,
+  "cellSignal": 31,
+  "cells": "404,98,5273,23128",
+  "direction": 0,
+  "expandInfo": "{\"angle\":\"null\",\"backBattery\":\"null\",\"fuels\":\"-1,-1,-1\",\"humidity\":\"0\",\"lux\":\"null\",\"networkType\":\"0\",\"pressure\":\"null\",\"reportType\":\"null\",\"temperature\":\"30.4\"}",
+  "gnssSignal": 0,
+  "gpsTime": "2025-09-03T06:57:08Z",
+  "latitude": 20.395681,
+  "locType": 2,
+  "longitude": 72.8932308,
+  "mileage": 0,
+  "recvTime": "2025-09-03T06:57:11.40378Z",
+  "speed": 0,
+  "statusJson": "{\"lockRope\":1,\"lockStatus\":1}",
+  "voltage": "1.6"
+}
+
+
+=== New Request at 2025-09-17 16:18:21 (IST) ===
+{
+  "assetId": "775240719293",
+  "battery": 59,
+  "cellSignal": 31,
+  "cells": "404,98,5273,23128",
+  "direction": 0,
+  "expandInfo": "{\"angle\":\"null\",\"backBattery\":\"null\",\"fuels\":\"-1,-1,-1\",\"humidity\":\"0\",\"lux\":\"null\",\"networkType\":\"0\",\"pressure\":\"null\",\"reportType\":\"null\",\"temperature\":\"30.4\"}",
+  "gnssSignal": 0,
+  "gpsTime": "2025-09-03T06:57:08Z",
+  "latitude": 20.395681,
+  "locType": 2,
+  "longitude": 72.8932308,
+  "mileage": 0,
+  "recvTime": "2025-09-03T06:57:11.40378Z",
+  "speed": 0,
+  "statusJson": "{\"lockRope\":1,\"lockStatus\":1}",
+  "voltage": "1.6"
+}
+
+
+=== New Request at 2025-09-17 16:22:51 (IST) ===
+{
+  "assetId": "775240719293",
+  "battery": 59,
+  "cellSignal": 31,
+  "cells": "404,98,5273,23128",
+  "direction": 0,
+  "expandInfo": "{\"angle\":\"null\",\"backBattery\":\"null\",\"fuels\":\"-1,-1,-1\",\"humidity\":\"0\",\"lux\":\"null\",\"networkType\":\"0\",\"pressure\":\"null\",\"reportType\":\"null\",\"temperature\":\"30.4\"}",
+  "gnssSignal": 0,
+  "gpsTime": "2025-09-03T06:57:08Z",
+  "latitude": 20.395681,
+  "locType": 2,
+  "longitude": 72.8932308,
+  "mileage": 0,
+  "recvTime": "2025-09-03T06:57:11.40378Z",
+  "speed": 0,
+  "statusJson": "{\"lockRope\":1,\"lockStatus\":1}",
+  "voltage": "1.6"
+}
+
+
+=== New Request at 2025-09-17 16:26:01 (IST) ===
+{
+  "assetId": "775240719293",
+  "battery": 59,
+  "cellSignal": 31,
+  "cells": "404,98,5273,23128",
+  "direction": 0,
+  "expandInfo": "{\"angle\":\"null\",\"backBattery\":\"null\",\"fuels\":\"-1,-1,-1\",\"humidity\":\"0\",\"lux\":\"null\",\"networkType\":\"0\",\"pressure\":\"null\",\"reportType\":\"null\",\"temperature\":\"30.4\"}",
+  "gnssSignal": 0,
+  "gpsTime": "2025-09-03T06:57:08Z",
+  "latitude": 20.395681,
+  "locType": 2,
+  "longitude": 72.8932308,
+  "mileage": 0,
+  "recvTime": "2025-09-03T06:57:11.40378Z",
+  "speed": 0,
+  "statusJson": "{\"lockRope\":1,\"lockStatus\":1}",
+  "voltage": "1.6"
+}
+
+
+=== New Request at 2025-09-17 16:31:20 (IST) ===
+{
+  "assetId": "775240719293",
+  "battery": 59,
+  "cellSignal": 31,
+  "cells": "404,98,5273,23128",
+  "direction": 0,
+  "expandInfo": "{\"angle\":\"null\",\"backBattery\":\"null\",\"fuels\":\"-1,-1,-1\",\"humidity\":\"0\",\"lux\":\"null\",\"networkType\":\"0\",\"pressure\":\"null\",\"reportType\":\"null\",\"temperature\":\"30.4\"}",
+  "gnssSignal": 0,
+  "gpsTime": "2025-09-03T06:57:08Z",
+  "latitude": 20.395681,
+  "locType": 2,
+  "longitude": 72.8932308,
+  "mileage": 0,
+  "recvTime": "2025-09-03T06:57:11.40378Z",
+  "speed": 0,
+  "statusJson": "{\"lockRope\":1,\"lockStatus\":1}",
+  "voltage": "1.6"
+}
+
+
+=== New Request at 2025-09-17 16:33:15 (IST) ===
+{
+  "assetId": "775240719293",
+  "battery": 59,
+  "cellSignal": 31,
+  "cells": "404,98,5273,23128",
+  "direction": 0,
+  "expandInfo": "{\"angle\":\"null\",\"backBattery\":\"null\",\"fuels\":\"-1,-1,-1\",\"humidity\":\"0\",\"lux\":\"null\",\"networkType\":\"0\",\"pressure\":\"null\",\"reportType\":\"null\",\"temperature\":\"30.4\"}",
+  "gnssSignal": 0,
+  "gpsTime": "2025-09-03T06:57:08Z",
+  "latitude": 20.395681,
+  "locType": 2,
+  "longitude": 72.8932308,
+  "mileage": 0,
+  "recvTime": "2025-09-03T06:57:11.40378Z",
+  "speed": 0,
+  "statusJson": "{\"lockRope\":1,\"lockStatus\":1}",
+  "voltage": "1.6"
+}
+
+
+=== New Request at 2025-09-17 16:33:48 (IST) ===
+{
+  "assetId": "775240719293",
+  "battery": 59,
+  "cellSignal": 31,
+  "cells": "404,98,5273,23128",
+  "direction": 0,
+  "expandInfo": "{\"angle\":\"null\",\"backBattery\":\"null\",\"fuels\":\"-1,-1,-1\",\"humidity\":\"0\",\"lux\":\"null\",\"networkType\":\"0\",\"pressure\":\"null\",\"reportType\":\"null\",\"temperature\":\"30.4\"}",
+  "gnssSignal": 0,
+  "gpsTime": "2025-09-03T06:57:08Z",
+  "latitude": 20.395681,
+  "locType": 2,
+  "longitude": 72.8932308,
+  "mileage": 0,
+  "recvTime": "2025-09-03T06:57:11.40378Z",
+  "speed": 0,
+  "statusJson": "{\"lockRope\":1,\"lockStatus\":1}",
+  "voltage": "1.6"
+}
+
+
+=== New Request at 2025-09-17 16:36:45 (IST) ===
+{
+  "assetId": "775240719293",
+  "battery": 59,
+  "cellSignal": 31,
+  "cells": "404,98,5273,23128",
+  "direction": 0,
+  "expandInfo": "{\"angle\":\"null\",\"backBattery\":\"null\",\"fuels\":\"-1,-1,-1\",\"humidity\":\"0\",\"lux\":\"null\",\"networkType\":\"0\",\"pressure\":\"null\",\"reportType\":\"null\",\"temperature\":\"30.4\"}",
+  "gnssSignal": 0,
+  "gpsTime": "2025-09-03T06:57:08Z",
+  "latitude": 20.395681,
+  "locType": 2,
+  "longitude": 72.8932308,
+  "mileage": 0,
+  "recvTime": "2025-09-03T06:57:11.40378Z",
+  "speed": 0,
+  "statusJson": "{\"lockRope\":1,\"lockStatus\":1}",
+  "voltage": "1.6"
+}
+
+
+=== New Request at 2025-09-17 17:23:35 (IST) ===
+{
+  "assetId": "775240719293",
+  "battery": 59,
+  "cellSignal": 31,
+  "cells": "404,98,5273,23128",
+  "direction": 0,
+  "expandInfo": "{\"angle\":\"null\",\"backBattery\":\"null\",\"fuels\":\"-1,-1,-1\",\"humidity\":\"0\",\"lux\":\"null\",\"networkType\":\"0\",\"pressure\":\"null\",\"reportType\":\"null\",\"temperature\":\"30.4\"}",
+  "gnssSignal": 0,
+  "gpsTime": "2025-09-03T06:57:08Z",
+  "latitude": 20.395681,
+  "locType": 2,
+  "longitude": 72.8932308,
+  "mileage": 0,
+  "recvTime": "2025-09-03T06:57:11.40378Z",
+  "speed": 0,
+  "statusJson": "{\"lockRope\":1,\"lockStatus\":1}",
+  "voltage": "1.6"
+}
+
+
+=== New Request at 2025-09-17 17:34:23 (IST) ===
+{
+  "assetId": "775240719293",
+  "battery": 59,
+  "cellSignal": 31,
+  "cells": "404,98,5273,23128",
+  "direction": 0,
+  "expandInfo": "{\"angle\":\"null\",\"backBattery\":\"null\",\"fuels\":\"-1,-1,-1\",\"humidity\":\"0\",\"lux\":\"null\",\"networkType\":\"0\",\"pressure\":\"null\",\"reportType\":\"null\",\"temperature\":\"30.4\"}",
+  "gnssSignal": 0,
+  "gpsTime": "2025-09-03T06:57:08Z",
+  "latitude": 20.395681,
+  "locType": 2,
+  "longitude": 72.8932308,
+  "mileage": 0,
+  "recvTime": "2025-09-03T06:57:11.40378Z",
+  "speed": 0,
+  "statusJson": "{\"lockRope\":1,\"lockStatus\":1}",
+  "voltage": "1.6"
+}
+
+
+=== New Request at 2025-09-17 17:35:37 (IST) ===
+{
+  "assetId": "775240719293",
+  "battery": 59,
+  "cellSignal": 31,
+  "cells": "404,98,5273,23128",
+  "direction": 0,
+  "expandInfo": "{\"angle\":\"null\",\"backBattery\":\"null\",\"fuels\":\"-1,-1,-1\",\"humidity\":\"0\",\"lux\":\"null\",\"networkType\":\"0\",\"pressure\":\"null\",\"reportType\":\"null\",\"temperature\":\"30.4\"}",
+  "gnssSignal": 0,
+  "gpsTime": "2025-09-03T06:57:08Z",
+  "latitude": 20.395681,
+  "locType": 2,
+  "longitude": 72.8932308,
+  "mileage": 0,
+  "recvTime": "2025-09-03T06:57:11.40378Z",
+  "speed": 0,
+  "statusJson": "{\"lockRope\":1,\"lockStatus\":1}",
+  "voltage": "1.6"
+}
+
+
+=== New Request at 2025-09-17 17:35:58 (IST) ===
+{
+  "assetId": "775240719293",
+  "battery": 255,
+  "cellSignal": 31,
+  "cells": "404,98,5273,23128",
+  "direction": 0,
+  "expandInfo": "{\"angle\":\"null\",\"backBattery\":\"null\",\"fuels\":\"-1,-1,-1\",\"humidity\":\"0\",\"lux\":\"null\",\"networkType\":\"0\",\"pressure\":\"null\",\"reportType\":\"null\",\"temperature\":\"30.4\"}",
+  "gnssSignal": 0,
+  "gpsTime": "2025-09-03T06:57:08Z",
+  "latitude": 20.395681,
+  "locType": 2,
+  "longitude": 72.8932308,
+  "mileage": 0,
+  "recvTime": "2025-09-03T06:57:11.40378Z",
+  "speed": 0,
+  "statusJson": "{\"lockRope\":1,\"lockStatus\":1}",
+  "voltage": "1.6"
+}
+
+
+=== New Request at 2025-09-17 17:38:14 (IST) ===
+{
+  "assetId": "775240719293",
+  "battery": 255,
+  "cellSignal": 31,
+  "cells": "404,98,5273,23128",
+  "direction": 0,
+  "expandInfo": "{\"angle\":\"null\",\"backBattery\":\"null\",\"fuels\":\"-1,-1,-1\",\"humidity\":\"0\",\"lux\":\"null\",\"networkType\":\"0\",\"pressure\":\"null\",\"reportType\":\"null\",\"temperature\":\"30.4\"}",
+  "gnssSignal": 0,
+  "gpsTime": "2025-09-03T06:57:08Z",
+  "latitude": 20.395681,
+  "locType": 2,
+  "longitude": 72.8932308,
+  "mileage": 0,
+  "recvTime": "2025-09-03T06:57:11.40378Z",
+  "speed": 0,
+  "statusJson": "{\"lockRope\":1,\"lockStatus\":1}",
+  "voltage": "1.6"
+}
+
+
+=== New Request at 2025-09-17 17:39:12 (IST) ===
+{
+  "assetId": "775240719293",
+  "battery": 255,
+  "cellSignal": 31,
+  "cells": "404,98,5273,23128",
+  "direction": 0,
+  "expandInfo": "{\"angle\":\"null\",\"backBattery\":\"null\",\"fuels\":\"-1,-1,-1\",\"humidity\":\"0\",\"lux\":\"null\",\"networkType\":\"0\",\"pressure\":\"null\",\"reportType\":\"null\",\"temperature\":\"30.4\"}",
+  "gnssSignal": 0,
+  "gpsTime": "2025-09-03T06:57:08Z",
+  "latitude": 20.395681,
+  "locType": 2,
+  "longitude": 72.8932308,
+  "mileage": 0,
+  "recvTime": "2025-09-03T06:57:11.40378Z",
+  "speed": 0,
+  "statusJson": "{\"lockRope\":1,\"lockStatus\":1}",
+  "voltage": "1.6"
+}
+
+
+=== New Request at 2025-09-17 17:53:33 (IST) ===
+{
+  "assetId": "775240719293",
+  "battery": 255,
+  "cellSignal": 31,
+  "cells": "404,98,5273,23128",
+  "direction": 0,
+  "expandInfo": "{\"angle\":\"null\",\"backBattery\":\"null\",\"fuels\":\"-1,-1,-1\",\"humidity\":\"0\",\"lux\":\"null\",\"networkType\":\"0\",\"pressure\":\"null\",\"reportType\":\"null\",\"temperature\":\"30.4\"}",
+  "gnssSignal": 0,
+  "gpsTime": "2025-09-03T06:57:08Z",
+  "latitude": 20.395681,
+  "locType": 2,
+  "longitude": 72.8932308,
+  "mileage": 0,
+  "recvTime": "2025-09-03T06:57:11.40378Z",
+  "speed": 0,
+  "statusJson": "{\"lockRope\":1,\"lockStatus\":1}",
+  "voltage": "1.6"
+}
+
+
+=== New Request at 2025-09-17 17:54:31 (IST) ===
+{
+  "assetId": "775240719293",
+  "battery": 255,
+  "cellSignal": 31,
+  "cells": "404,98,5273,23128",
+  "direction": 0,
+  "expandInfo": "{\"angle\":\"null\",\"backBattery\":\"null\",\"fuels\":\"-1,-1,-1\",\"humidity\":\"0\",\"lux\":\"null\",\"networkType\":\"0\",\"pressure\":\"null\",\"reportType\":\"null\",\"temperature\":\"30.4\"}",
+  "gnssSignal": 0,
+  "gpsTime": "2025-09-03T06:57:08Z",
+  "latitude": 20.395681,
+  "locType": 2,
+  "longitude": 72.8932308,
+  "mileage": 0,
+  "recvTime": "2025-09-03T06:57:11.40378Z",
+  "speed": 0,
+  "statusJson": "{\"lockRope\":1,\"lockStatus\":1}",
+  "voltage": "1.6"
+}
+
+
+=== New Request at 2025-09-17 17:54:51 (IST) ===
+{
+  "assetId": "775240719293",
+  "battery": 255,
+  "cellSignal": 31,
+  "cells": "404,98,5273,23128",
+  "direction": 0,
+  "expandInfo": "{\"angle\":\"null\",\"backBattery\":\"null\",\"fuels\":\"-1,-1,-1\",\"humidity\":\"0\",\"lux\":\"null\",\"networkType\":\"0\",\"pressure\":\"null\",\"reportType\":\"null\",\"temperature\":\"30.4\"}",
+  "gnssSignal": 0,
+  "gpsTime": "2025-09-03T06:57:08Z",
+  "latitude": 20.395681,
+  "locType": 2,
+  "longitude": 72.8932308,
+  "mileage": 0,
+  "recvTime": "2025-09-03T06:57:11.40378Z",
+  "speed": 0,
+  "statusJson": "{\"lockRope\":1,\"lockStatus\":1}",
+  "voltage": "1.6"
+}
+
+
+=== New Request at 2025-09-17 18:00:26 (IST) ===
+{
+  "assetId": "775240719293",
+  "battery": 255,
+  "cellSignal": 31,
+  "cells": "404,98,5273,23128",
+  "direction": 0,
+  "expandInfo": "{\"angle\":\"null\",\"backBattery\":\"null\",\"fuels\":\"-1,-1,-1\",\"humidity\":\"0\",\"lux\":\"null\",\"networkType\":\"0\",\"pressure\":\"null\",\"reportType\":\"null\",\"temperature\":\"30.4\"}",
+  "gnssSignal": 0,
+  "gpsTime": "2025-09-03T06:57:08Z",
+  "latitude": 20.395681,
+  "locType": 2,
+  "longitude": 72.8932308,
+  "mileage": 0,
+  "recvTime": "2025-09-03T06:57:11.40378Z",
+  "speed": 0,
+  "statusJson": "{\"lockRope\":1,\"lockStatus\":1}",
+  "voltage": "1.6"
+}
+
+
+=== New Request at 2025-09-17 18:12:33 (IST) ===
+{
+  "assetId": "775240719293",
+  "battery": 255,
+  "cellSignal": 31,
+  "cells": "404,98,5273,23128",
+  "direction": 0,
+  "expandInfo": "{\"angle\":\"null\",\"backBattery\":\"null\",\"fuels\":\"-1,-1,-1\",\"humidity\":\"0\",\"lux\":\"null\",\"networkType\":\"0\",\"pressure\":\"null\",\"reportType\":\"null\",\"temperature\":\"30.4\"}",
+  "gnssSignal": 0,
+  "gpsTime": "2025-09-03T06:57:08Z",
+  "latitude": 20.395681,
+  "locType": 2,
+  "longitude": 72.8932308,
+  "mileage": 0,
+  "recvTime": "2025-09-03T06:57:11.40378Z",
+  "speed": 0,
+  "statusJson": "{\"lockRope\":1,\"lockStatus\":1}",
+  "voltage": "1.6"
+}
+
+
+=== New Request at 2025-09-18 11:28:29 (IST) ===
+{
+  "assetId": "775240719293",
+  "battery": 255,
+  "cellSignal": 31,
+  "cells": "404,98,5273,23128",
+  "direction": 0,
+  "expandInfo": "{\"angle\":\"null\",\"backBattery\":\"null\",\"fuels\":\"-1,-1,-1\",\"humidity\":\"0\",\"lux\":\"null\",\"networkType\":\"0\",\"pressure\":\"null\",\"reportType\":\"null\",\"temperature\":\"30.4\"}",
+  "gnssSignal": 0,
+  "gpsTime": "2025-09-03T06:57:08Z",
+  "latitude": 20.395681,
+  "locType": 2,
+  "longitude": 72.8932308,
+  "mileage": 0,
+  "recvTime": "2025-09-03T06:57:11.40378Z",
+  "speed": 0,
+  "statusJson": "{\"lockRope\":1,\"lockStatus\":1}",
+  "voltage": "1.6"
+}
+
+
+=== New Request at 2025-09-18 12:16:40 (IST) ===
+{
+  "assetId": "775240719293",
+  "battery": 255,
+  "cellSignal": 31,
+  "cells": "404,98,5273,23128",
+  "direction": 0,
+  "expandInfo": "{\"angle\":\"null\",\"backBattery\":\"null\",\"fuels\":\"-1,-1,-1\",\"humidity\":\"0\",\"lux\":\"null\",\"networkType\":\"0\",\"pressure\":\"null\",\"reportType\":\"null\",\"temperature\":\"30.4\"}",
+  "gnssSignal": 0,
+  "gpsTime": "2025-09-03T06:57:08Z",
+  "latitude": 20.395681,
+  "locType": 2,
+  "longitude": 72.8932308,
+  "mileage": 0,
+  "recvTime": "2025-09-03T06:57:11.40378Z",
+  "speed": 0,
+  "statusJson": "{\"lockRope\":1,\"lockStatus\":1}",
+  "voltage": "1.6"
+}
+
+
+=== New Request at 2025-09-18 12:18:12 (IST) ===
+{
+  "assetId": "775240719293",
+  "battery": 255,
+  "cellSignal": 31,
+  "cells": "404,98,5273,23128",
+  "direction": 0,
+  "expandInfo": "{\"angle\":\"null\",\"backBattery\":\"null\",\"fuels\":\"-1,-1,-1\",\"humidity\":\"0\",\"lux\":\"null\",\"networkType\":\"0\",\"pressure\":\"null\",\"reportType\":\"null\",\"temperature\":\"30.4\"}",
+  "gnssSignal": 0,
+  "gpsTime": "2025-09-03T06:57:08Z",
+  "latitude": 20.395681,
+  "locType": 2,
+  "longitude": 72.8932308,
+  "mileage": 0,
+  "recvTime": "2025-09-03T06:57:11.40378Z",
+  "speed": 0,
+  "statusJson": "{\"lockRope\":1,\"lockStatus\":1}",
+  "voltage": "1.6"
+}
+
+
+=== New Request at 2025-09-18 12:25:29 (IST) ===
+{
+  "assetId": "775240719293",
+  "battery": 255,
+  "cellSignal": 31,
+  "cells": "404,98,5273,23128",
+  "direction": 0,
+  "expandInfo": "{\"angle\":\"null\",\"backBattery\":\"null\",\"fuels\":\"-1,-1,-1\",\"humidity\":\"0\",\"lux\":\"null\",\"networkType\":\"0\",\"pressure\":\"null\",\"reportType\":\"null\",\"temperature\":\"30.4\"}",
+  "gnssSignal": 0,
+  "gpsTime": "2025-09-03T06:57:08Z",
+  "latitude": 20.395681,
+  "locType": 2,
+  "longitude": 72.8932308,
+  "mileage": 0,
+  "recvTime": "2025-09-03T06:57:11.40378Z",
+  "speed": 0,
+  "statusJson": "{\"lockRope\":1,\"lockStatus\":1}",
+  "voltage": "1.6"
+}
