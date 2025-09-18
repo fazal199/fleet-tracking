@@ -4,7 +4,7 @@ const { createServer } = require('http');
 const { Server } = require('socket.io');
 const fs = require("fs");
 const db = require("./db/index.js");
-const {formatDateToIST,convertISOToISTFormatted} = require("./utils/utils.js")
+const { formatDateToIST, convertISOToISTFormatted } = require("./utils/utils.js")
 
 require("dotenv").config();
 
@@ -45,10 +45,9 @@ app.post("/gpsdata", async (req, res) => {
     const logTime = formatDateToIST(new Date());
 
     // Log request
-    fs.appendFileSync(
-        "gps-webhook-log-1.txt",
-        `\n\n=== New Request at ${logTime} (IST) ===\n${JSON.stringify(data, null, 2)}\n`
-    );
+
+    console.log(`\n\n=== New Request at ${logTime} (IST) ===\n${JSON.stringify(data, null, 2)}\n`);
+
 
     // Convert gpsTime / recvTime to IST
     if (data.gpsTime) {
