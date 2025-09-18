@@ -79,7 +79,7 @@ app.post("/gpsdata", async (req, res) => {
         }
 
         //Inserting India Current time in created_at
-        const currentIndianTiming = new Date();
+        const currentIndianTiming = convertISOToISTFormatted(new Date(Date.now()).toDateString())
 
         // Insert data into DB
         const insertQuery = `
