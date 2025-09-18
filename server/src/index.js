@@ -39,13 +39,85 @@ app.get('/', (req, res) => {
     res.send('Express server is running');
 });
 
+app.get("/last-trackderdata", async function (req, res) {
+    const dbresponse = await db.query("select * from gpsdata order by gps_time desc limit 1;");
+
+    const trackerdata = dbresponse.rows[0];
+    const status = JSON.parse(trackerdata?.status_json);
+
+    const lockRope = status.lockRope === 1 || status.lockRope === "1" ? "Pull out" : "Inserting";
+    const lockState = status.lockStatus === 1 || status.lockStatus === "1" ? "Seal" : "Unseal";
+
+    const voltage = trackerdata.voltage;
+    const batteryPercent = trackerdata.battery == 255 ? "Charging" : trackerdata.battery;
+
+    const expandInfo = JSON.parse(trackerdata.expand_info);
+    const temperature = expandInfo.temperature;
+
+    //FIXME: Need Alarm Data
+    const backCover = "Open"; // placeholder
+
+    //FIXME: Need Geolocation Api
+    const deviceAddress = "No Location, Enable Billing for Geocoding Api";
+
+
+    lastStateRes = await db.query(
+        "SELECT last_state_changed_time FROM gpsdata WHERE last_state_changed_time IS NOT NULL ORDER BY last_state_changed_time DESC LIMIT 1"
+    );
+
+    let runDuration = "Not Available";
+
+    let stateChangedTime = lastStateRes.rows[0].last_state_changed_time || null;
+
+    if (stateChangedTime) {
+
+        const lastTime = new Date(stateChangedTime);
+
+
+        const now = new Date(); // Current time
+        let diffSeconds = Math.floor((now.getTime() - lastTime.getTime()) / 1000);
+        if (diffSeconds < 0) diffSeconds = 0;
+
+        const days = Math.floor(diffSeconds / 86400);
+        const hours = Math.floor((diffSeconds % 86400) / 3600);
+        const minutes = Math.floor((diffSeconds % 3600) / 60);
+
+
+        const durationParts = [];
+        if (days > 0) durationParts.push(`${days}d`);
+        if (hours > 0) durationParts.push(`${hours}h`);
+        if (minutes > 0 || durationParts.length === 0) durationParts.push(`${minutes}min`);
+
+        runDuration = durationParts.join(" ");
+    }
+
+    const finalTrackderData = {
+        truckId: trackerdata.asset_id,
+        lockState,
+        voltage: `${voltage}V`,
+        battery: `${batteryPercent === "Charging" ? "Charging" : `${batteryPercent}%`}`,
+        gpsTime: trackerdata.gps_time,
+        temperature,
+        latitude: Number(trackerdata.latitude),
+        longitude: Number(trackerdata.longitude),
+
+        runStatus: `${trackerdata.speed > 0 ? "Driving" : "Parking"}【${runDuration}】`,
+        latLong: `${trackerdata.latitude}, ${trackerdata.longitude}`,
+        status: `Lock rope: ${lockRope}; Lock State: ${lockState}; Back cover: ${backCover}; LBS: ${trackerdata.cells};`,
+        location: deviceAddress
+    };
+
+    res.status(200).json({
+        trackerdata: finalTrackderData
+    })
+})
+
 
 app.post("/gpsdata", async (req, res) => {
     const data = { ...req.body };
     const logTime = formatDateToIST(new Date());
 
     // Log request
-
     console.log(`\n\n=== New Request at ${logTime} (IST) ===\n${JSON.stringify(data, null, 2)}\n`);
 
 
@@ -124,17 +196,13 @@ app.post("/gpsdata", async (req, res) => {
 
         }
 
-
-
-
-
         let runDuration = "0min";
 
         stateChangedTime = stateChangedTime || lastStateRes.rows[0].last_state_changed_time;
 
 
         if (stateChangedTime) {
-            console.log(stateChangedTime, typeof (stateChangedTime));
+            
 
             const lastTime = new Date(stateChangedTime);
 

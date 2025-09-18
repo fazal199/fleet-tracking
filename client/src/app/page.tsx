@@ -33,7 +33,13 @@ const HomePage = () => {
     })
   }
 
+  const getLastTrackderData = async function(){
+     const data =  await (await fetch(process.env.NEXT_PUBLIC_BACKEND_URL as string + "/last-trackderdata" )).json();
+     setMarkerData(data.trackerdata);
+  }
+
   useEffect(() => {
+    getLastTrackderData();
     connectToSocketServer();
   }, []);
 
@@ -50,7 +56,7 @@ const HomePage = () => {
         {markerData && <Marker position={{ lat: markerData.latitude, lng: markerData.longitude }} onClick={() => setInfowindow(!infowindow)} />}
 
         {/* Info Window */}
-        {markerData && infowindow && <InfoWindow position={{ lat: markerData.latitude + 0.05, lng: markerData.longitude }} onCloseClick={() => setInfowindow(false)}>
+        {markerData && infowindow && <InfoWindow position={{ lat: markerData.latitude, lng: markerData.longitude }} options={{ pixelOffset: new window.google.maps.Size(0, -28) }} onCloseClick={() => setInfowindow(false)}>
           <div style={{ fontSize: "13px" }}>
             <b>Truck ID:</b> {markerData?.truckId} <br />
 
