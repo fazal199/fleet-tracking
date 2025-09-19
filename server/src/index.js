@@ -39,6 +39,7 @@ app.get('/', (req, res) => {
     res.send('Express server is running');
 });
 
+//route to get the recent data of tracker
 app.get("/last-trackderdata", async function (req, res) {
     const dbresponse = await db.query("select * from gpsdata order by gps_time desc limit 1;");
 
@@ -110,7 +111,7 @@ app.get("/last-trackderdata", async function (req, res) {
     })
 })
 
-
+//route for chinese server positional data
 app.post("/gpsdata", async (req, res) => {
     const data = { ...req.body };
     const logTime = formatDateToIST(new Date());
@@ -276,6 +277,86 @@ app.post("/gpsdata", async (req, res) => {
         return res.status(500).json({ status: "error", msg: "DB operation failed", err });
     }
 });
+
+//route for chinese server event data
+app.post("/eventdata", async (req, res) => {
+    const data = { ...req.body };
+    const logTime = formatDateToIST(new Date());
+
+    // Log request
+    console.log(`\n\n=== New Request at ${logTime} (IST) ===\n${JSON.stringify(data, null, 2)}\n`);
+
+    //checking if whether the device is lock or unlock
+    const currentStatus = data.eventType == 1 ? "unlock" : "lock";
+
+    const insertquery = `INSERT INTO lock_unlock_data (event_type, event_time, device_id)
+            VALUES ($1, $2, $3);`;
+
+    try {
+        await db.query(insertquery, [
+            currentStatus,
+            convertISOToISTFormatted(data.dateTime, "Asia/Kolkata"),
+            data.assetId
+        ])
+    } catch (err) {
+        console.error("Something Went wrong while handling the eventdata! place: index.js route: app.post('/eventdata')", err.message);
+        return res.status(500).json({ status: "error", msg: "DB operation failed", err });
+    }
+
+    return res.json({
+        status: "success",
+        timestamp: logTime,
+        received: data,
+    });
+
+
+});
+
+//route to get devices report
+app.get("/getdevices-report", async function (req, res) {
+
+    const fromdate = req.query.fromdate || "";
+    const todate = req.query.todate || "";
+    let devicesreportquery, dbresponse;
+
+    if (fromdate && todate) {
+        devicesreportquery = `SELECT
+        device_id,
+        SUM(CASE WHEN LOWER(TRIM(event_type)) = 'lock' THEN 1 ELSE 0 END)   AS lock_times,
+        SUM(CASE WHEN LOWER(TRIM(event_type)) = 'unlock' THEN 1 ELSE 0 END) AS unlock_times
+      FROM lock_unlock_data
+      WHERE event_time BETWEEN $1 AND $2
+      GROUP BY device_id;`
+
+        dbresponse = await db.query(devicesreportquery, [
+            req.query.fromdate,
+            req.query.todate,
+        ]);
+
+    }
+
+    else {
+        devicesreportquery = `SELECT
+        device_id,
+        SUM(CASE WHEN LOWER(TRIM(event_type)) = 'lock' THEN 1 ELSE 0 END)   AS lock_times,
+        SUM(CASE WHEN LOWER(TRIM(event_type)) = 'unlock' THEN 1 ELSE 0 END) AS unlock_times
+      FROM lock_unlock_data
+      GROUP BY device_id;`;
+
+        dbresponse = await db.query(devicesreportquery);
+
+    }
+
+    const lock_unlock_data = dbresponse.rows.length > 0 ? dbresponse.rows : [];
+
+    res.status(200).json({
+        success: true,
+        statusCode: 200,
+        message: "devices lock and unlock report sent!",
+        lock_unlock_data,
+    })
+})
+
 
 // 404 handler
 app.use((req, res) => {
