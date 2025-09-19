@@ -73,7 +73,6 @@ app.get("/last-trackderdata", async function (req, res) {
 
         const lastTime = new Date(stateChangedTime);
 
-
         const now = new Date(); // Current time
         let diffSeconds = Math.floor((now.getTime() - lastTime.getTime()) / 1000);
         if (diffSeconds < 0) diffSeconds = 0;
@@ -81,7 +80,6 @@ app.get("/last-trackderdata", async function (req, res) {
         const days = Math.floor(diffSeconds / 86400);
         const hours = Math.floor((diffSeconds % 86400) / 3600);
         const minutes = Math.floor((diffSeconds % 3600) / 60);
-
 
         const durationParts = [];
         if (days > 0) durationParts.push(`${days}d`);
@@ -96,7 +94,7 @@ app.get("/last-trackderdata", async function (req, res) {
         lockState,
         voltage: `${voltage}V`,
         battery: `${batteryPercent === "Charging" ? "Charging" : `${batteryPercent}%`}`,
-        gpsTime: trackerdata.gps_time,
+        gpsTime: convertISOToISTFormatted(trackerdata.gps_time),
         temperature,
         latitude: Number(trackerdata.latitude),
         longitude: Number(trackerdata.longitude),
@@ -151,7 +149,7 @@ app.post("/gpsdata", async (req, res) => {
         }
 
         //Inserting India Current time in created_at
-        const currentIndianTiming = convertISOToISTFormatted(new Date(Date.now()).toDateString())
+        const currentIndianTiming = convertISOToISTFormatted(new Date(Date.now()).toISOString())
 
         // Insert data into DB
         const insertQuery = `
@@ -164,26 +162,33 @@ app.post("/gpsdata", async (req, res) => {
           $8,$9,$10,$11,$12,$13,$14,
           $15,$16,$17,$18
         )`;
-        await db.query(insertQuery, [
-            data.assetId,
-            data.battery,
-            data.cellSignal,
-            data.cells,
-            data.direction,
-            data.expandInfo,
-            data.gnssSignal,
-            data.gpsTime,
-            data.latitude,
-            data.longitude,
-            data.locType,
-            data.mileage,
-            data.recvTime,
-            data.speed,
-            data.statusJson,
-            data.voltage,
-            stateChangedTime,
-            currentIndianTiming
-        ]);
+
+
+        try {
+            await db.query(insertQuery, [
+                data.assetId,
+                data.battery,
+                data.cellSignal,
+                data.cells,
+                data.direction,
+                data.expandInfo,
+                data.gnssSignal,
+                data.gpsTime,
+                data.latitude,
+                data.longitude,
+                data.locType,
+                data.mileage,
+                data.recvTime,
+                data.speed,
+                data.statusJson,
+                data.voltage,
+                stateChangedTime,
+                currentIndianTiming
+            ]);
+        } catch (error) {
+            console.log("Something went wrong while inserting chinese server positional data! place: index.js route:/gpsdata", error.message);
+        }
+
 
 
         let lastStateRes;
@@ -193,7 +198,6 @@ app.post("/gpsdata", async (req, res) => {
             lastStateRes = await db.query(
                 "SELECT last_state_changed_time FROM gpsdata WHERE last_state_changed_time IS NOT NULL ORDER BY last_state_changed_time DESC LIMIT 1"
             );
-
         }
 
         let runDuration = "0min";
@@ -202,7 +206,7 @@ app.post("/gpsdata", async (req, res) => {
 
 
         if (stateChangedTime) {
-            
+
 
             const lastTime = new Date(stateChangedTime);
 
@@ -268,7 +272,7 @@ app.post("/gpsdata", async (req, res) => {
         });
 
     } catch (err) {
-        console.error("DB Insert / Calculation Error:", err);
+        console.error("Something Went wrong while handling the gpsdata! place: index.js route: app.post('/gpsdata')", err.message);
         return res.status(500).json({ status: "error", msg: "DB operation failed", err });
     }
 });
