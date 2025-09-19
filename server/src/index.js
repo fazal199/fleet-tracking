@@ -188,6 +188,7 @@ app.post("/gpsdata", async (req, res) => {
             ]);
         } catch (error) {
             console.log("Something went wrong while inserting chinese server positional data! place: index.js route:/gpsdata", error.message);
+            res.status(500).json({ message: `Something went wrong while inserting chinese server positional data! place: index.js route:/gpsdata ${error.message}`})
         }
 
 
