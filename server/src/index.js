@@ -94,7 +94,7 @@ app.get("/last-trackderdata", async function (req, res) {
         lockState,
         voltage: `${voltage}V`,
         battery: `${batteryPercent === "Charging" ? "Charging" : `${batteryPercent}%`}`,
-        gpsTime: convertISOToISTFormatted(trackerdata.gps_time),
+        gpsTime: process.env.NODE_ENV == "dev" ? convertISOToISTFormatted(trackerdata.gps_time) : trackerdata.gps_time,
         temperature,
         latitude: Number(trackerdata.latitude),
         longitude: Number(trackerdata.longitude),

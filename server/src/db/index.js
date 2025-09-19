@@ -1,4 +1,5 @@
 const { Pool } = require("pg");
+
 require("dotenv").config();
 const pool = new Pool({
     host: process.env.DB_HOST,
@@ -8,8 +9,8 @@ const pool = new Pool({
     port: process.env.DB_PORT,
     ssl: { rejectUnauthorized: false },
     max: parseInt(process.env.DB_MAX_CONNECTIONS) || 5,
-    idleTimeoutMillis: 10000,
-    connectionTimeoutMillis: 2000,
+    idleTimeoutMillis: 10000,//wait 10s before closing connection
+    connectionTimeoutMillis: 2000,//if all connections are busy and new request comes, then wait only for 2 seconds
 });
 
 // ✅ Only log errors and initialization
