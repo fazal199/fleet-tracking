@@ -16,7 +16,7 @@ const LockUnlockReports = () => {
     }
 
     const handleQuery = async () => {
-        
+
         const filterUrl = `${process.env.NEXT_PUBLIC_BACKEND_URL}/getdevices-report?fromdate=${fromDate}&todate=${toDate}`;
 
         const reportsdataresponse = await (await fetch(filterUrl)).json();
@@ -73,22 +73,29 @@ const LockUnlockReports = () => {
                         </tr>
                     </thead>
                     <tbody>
-                        {reportsdata.map((row: any, index: any) => (
-                            <tr key={row.device_id} className="hover:bg-gray-50">
-                                <td className="border border-gray-300 px-4 py-2 text-center">
-                                    {index + 1}
-                                </td>
-                                <td className="border border-gray-300 px-4 py-2">
-                                    {row.device_id}
-                                </td>
-                                <td className="border border-gray-300 px-4 py-2 text-center">
-                                    {row.lock_times}
-                                </td>
-                                <td className="border border-gray-300 px-4 py-2 text-center">
-                                    {row.unlock_times}
-                                </td>
+
+                        {reportsdata?.length > 0 ? (
+                            reportsdata.map((row: any, index: any) => (
+                                <tr key={row.device_id} className="hover:bg-gray-50">
+                                    <td className="border border-gray-300 px-4 py-2 text-center">
+                                        {index + 1}
+                                    </td>
+                                    <td className="border border-gray-300 px-4 py-2">
+                                        {row.device_id}
+                                    </td>
+                                    <td className="border border-gray-300 px-4 py-2 text-center">
+                                        {row.lock_times}
+                                    </td>
+                                    <td className="border border-gray-300 px-4 py-2 text-center">
+                                        {row.unlock_times}
+                                    </td>
+                                </tr>
+                            ))
+                        ) : (
+                            <tr>
+                                <td className="border border-gray-300 px-4 py-2 text-center" colSpan={5}>No Data</td>
                             </tr>
-                        ))}
+                        )}
                     </tbody>
                 </table>
             </div>

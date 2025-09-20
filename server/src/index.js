@@ -310,7 +310,6 @@ app.post("/eventdata", async (req, res) => {
         received: data,
     });
 
-
 });
 
 //route to get devices report
