@@ -17,8 +17,14 @@ const LockUnlockReports = () => {
 
     const handleQuery = async () => {
 
-        const filterUrl = `${process.env.NEXT_PUBLIC_BACKEND_URL}/getdevices-report?fromdate=${fromDate}&todate=${toDate}`;
 
+        if(!fromDate && !toDate)
+        {
+            alert("Plzz Enter Dates Properly!")
+            return;
+        }
+
+        const filterUrl = `${process.env.NEXT_PUBLIC_BACKEND_URL}/getdevices-report?fromdate=${fromDate}&todate=${toDate}`;
         const reportsdataresponse = await (await fetch(filterUrl)).json();
         setReportsdata(reportsdataresponse.lock_unlock_data);
 
