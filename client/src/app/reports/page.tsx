@@ -11,7 +11,7 @@ const LockUnlockReports = () => {
 
 
     async function getReportsData() {
-        const reportsdataresponse = await (await fetch(`${process.env.NEXT_PUBLIC_BACKEND_URL}/getdevices-report`)).json();
+        const reportsdataresponse = await (await fetch(`${process.env.NEXT_PUBLIC_BACKEND_URL}/api/getdevices-report`)).json();
         setReportsdata(reportsdataresponse.lock_unlock_data);
     }
 

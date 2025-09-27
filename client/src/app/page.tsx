@@ -35,7 +35,7 @@ const HomePage = () => {
   }
 
   const getLastTrackderData = async function () {
-    const data = await (await fetch(process.env.NEXT_PUBLIC_BACKEND_URL as string + "/last-trackderdata")).json();
+    const data = await (await fetch(process.env.NEXT_PUBLIC_BACKEND_URL as string + "/api/last-trackderdata")).json();
     setMarkerData(data.trackerdata);
   }
 

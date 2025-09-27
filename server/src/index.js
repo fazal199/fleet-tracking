@@ -35,12 +35,12 @@ io.on('connection', (socket) => {
 });
 
 // Root route
-app.get('/', (req, res) => {
+app.get('/api', (req, res) => {
     res.send('Express server is running');
 });
 
 //route to get the recent data of tracker
-app.get("/last-trackderdata", async function (req, res) {
+app.get("/api/last-trackderdata", async function (req, res) {
     const dbresponse = await db.query("select * from gpsdata order by gps_time desc limit 1;");
 
     const trackerdata = dbresponse.rows[0];
@@ -112,7 +112,7 @@ app.get("/last-trackderdata", async function (req, res) {
 })
 
 //route for chinese server positional data
-app.post("/gpsdata", async (req, res) => {
+app.post("/api/gpsdata", async (req, res) => {
     const data = { ...req.body };
     const logTime = formatDateToIST(new Date());
 
@@ -280,7 +280,7 @@ app.post("/gpsdata", async (req, res) => {
 });
 
 //route for chinese server event data
-app.post("/eventdata", async (req, res) => {
+app.post("/api/eventdata", async (req, res) => {
     const data = { ...req.body };
     const logTime = formatDateToIST(new Date());
 
@@ -313,7 +313,7 @@ app.post("/eventdata", async (req, res) => {
 });
 
 //route to get devices report
-app.get("/getdevices-report", async function (req, res) {
+app.get("/api/getdevices-report", async function (req, res) {
 
     const fromdate = req.query.fromdate || "";
     const todate = req.query.todate || "";
@@ -370,7 +370,7 @@ app.use((err, req, res, next) => {
 });
 
 server.listen(PORT, () => {
-    console.log(`Server is Now Running or Listening!`);
+    console.log(`Server is Now Running or Listening at ${PORT}!`);
 });
 
 process.on("SIGINT", () => {
